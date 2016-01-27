@@ -1,0 +1,16 @@
+#psup{
+	height:160px;
+	width:196px;
+	padding:50px 60px;
+	border:18px solid yellow;
+	text-align: center;
+	 }
+
+#pinf{
+	height:160px;
+	width:200px;
+	padding:50px 65px;
+	border:18px solid yellow;
+	margin:30px 10px 10px 500px; 
+	text-align:left;
+	 }
