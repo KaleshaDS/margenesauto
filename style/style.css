@@ -1,16 +1,37 @@
+body{
+	background-image: url("http://paginadejaime.hol.es/fondote.jpg");
+	background-position: center; /*acomoda la imagen dentro de navegador*/
+}
+
 #psup{
 	height:160px;
 	width:196px;
 	padding:50px 60px;
-	border:18px solid yellow;
+	margin-left: 300px;
+	border:18px outset orange; /*outset es un estilo de borde*/
+	border-bottom-color: #914007; /*borde inferior de otro color*/
 	text-align: center;
+	background-color: white;
 	 }
 
 #pinf{
 	height:160px;
 	width:200px;
 	padding:50px 65px;
-	border:18px solid yellow;
-	margin:30px 10px 10px 500px; 
+	border:18px inset orange;
+	border-top-color:#914007;
+	margin:50px 10px 10px 700px; 
 	text-align:left;
+	background-color: white;
 	 }
+#sello{
+	  color:orange;
+	  text-decoration:underline; /*linea abajo del texto*/
+  	  font-family: Impact;
+  	  font-size: 40px;
+  	  left: 370px;
+	  letter-spacing: 15px; /*espacio entre las letras*/
+  	  margin: 10px;
+  	  position: absolute; /*Permite moverlo en la pagina. "Relative" lo manda al final*/
+      top: 300px;
+		}
